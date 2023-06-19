@@ -1,9 +1,9 @@
 import React from 'react';
 import Profile from './Profile/Profile';
 import Statistics from './Statistics/Statistics';
-import Friends from './Friends/Friends';
 import userData from './Profile/user.json';
-import friendsData from './Friends/friends.json';
+import FriendList from './Friends/FriendsList';
+import friends from './Friends/friends.json';
 
 export const App = () => {
   return (
@@ -16,7 +16,7 @@ export const App = () => {
         stats={userData.stats}
       />
       <Statistics title="Statistics" />
-      <Friends friends={friendsData} />
+      <FriendList friends={friends} />
     </div>
   );
 };
