@@ -1,60 +1,63 @@
 .profile {
-  background-color: gainsboro;
-  padding: 20px;
-  border-radius: 8px;
+  background-color: white;
   max-width: 300px;
   margin: 20px 20px;
-  }
-  
-  .description {
-    text-align: center;
-  }
-  
-  .avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-  }
-  
-  .name {
-    font-size: 28px;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-  
-  .tag {
-    color: #777;
-    margin-top: 5px;
-    font-size: 24px;
-  }
-  
-  .location {
-    color: #777;
-    margin-top: 5px;
-    font-size: 24px;
-  }
-  
-  .stats {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 20px;
+}
 
-  }
-  
-  .stats li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .label {
-   font-size: 34px;
-  }
-  
-  .quantity {
-    color: black;
-    font-weight: bold;
-    padding-left: 20px;
-  }
-  
+.description {
+  text-align: center;
+  padding: 20px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.tag {
+  color: #777;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.location {
+  color: #777;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.stats {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  padding-block: 20px;
+  background-color: #f3eaf8;
+  width: calc(100% - 40px);
+  align-items: center;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+.quantity {
+  color: black;
+  padding-inline: 20px;
+  font-weight: bold;
+}

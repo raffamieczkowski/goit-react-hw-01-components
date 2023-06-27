@@ -1,35 +1,120 @@
-.statistics {
-  background-color: green;
-  padding: 20px;
-  border-radius: 8px;
+.statistics-box {
+  background-color: beige;
   max-width: 300px;
   margin: 20px 20px;
-  }
-  
-  .title {
-    font-size: 24px;
-    margin-bottom: 16px;
-  }
-  
-  .stat-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 8px;
-  }
-  
-  .label {
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  .percentage {
-    font-size: 14px;
-    color: white;
-  }  
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+.stat-title {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 150px;
+  color: rgb(176, 165, 165);
+}
+
+.stat-list {
+  margin: 0px;
+}
+
+.stat-item {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.label-stat {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.percentage {
+  font-size: 14px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+/* Dodane style dla różnych kolorów tła dla elementów listy */
+.stat-item:nth-child(1) {
+  background-color: #f3eaf8;
+}
+
+.stat-item:nth-child(2) {
+  background-color: #e6f4fb;
+}
+
+.statistics-box {
+  background-color: beige;
+  max-width: 300px;
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+.stat-title {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 150px;
+  color: rgb(176, 165, 165);
+}
+
+.stat-list {
+  list-style: none;
+  align-items: center;
+  padding-inline-start: 0px;
+  justify-content: space-around;
+  font-size: 16px;
+  display: flex;
+  height: 150px;
+}
+
+.label-stat {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.percentage {
+  font-size: 14px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+/* Dodane style dla różnych kolorów tła dla elementów listy */
+.stat-item:nth-child(1) {
+  background-color: #f3eaf8;
+}
+
+.stat-item:nth-child(2) {
+  background-color: #e6f4fb;
+}
+
+.stat-item:nth-child(3) {
+  background-color: #ffe1c4;
+}
+
+.stat-item:nth-child(4) {
+  background-color: #9979ab;
+}
+
+.stat-item:nth-child(5) {
+  background-color: #cba7dd;
+}
+
+
+/* Dodaj dodatkowe style dla kolejnych elementów listy według potrzeb */
+
+
+/* Dodaj dodatkowe style dla kolejnych elementów listy według potrzeb */
